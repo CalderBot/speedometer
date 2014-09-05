@@ -6,7 +6,7 @@ function loadGauge(){
     WIDTH=$(window).width();
     HEIGHT=$(window).height();
     $('#ridingViewContainer').css({'width':WIDTH,'height':HEIGHT}); 
-    speedometer = new Gauge('speedometer','mph', WIDTH, HEIGHT, 0, 40,0,0,0,1000);
+    speedometer = new Gauge('speedometer','mph', WIDTH, HEIGHT, 0, 40,0,0,0);
 }
 
 
